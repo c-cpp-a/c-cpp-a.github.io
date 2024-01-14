@@ -1,0 +1,47 @@
+.divtop {
+	background-color: lightyellow;
+	color: black;
+}
+
+.divpart {
+	background-color: lightgoldenrodyellow;
+	box-shadow: 0 0 4px rgba(154, 156, 87, 0.2);
+	margin-left: 5px;
+	maxwidth: 100px;
+	display: inline-block;
+}
+
+.playerabbr {
+	width: 20%;
+}
+
+.res {
+	display: block;
+}
+
+.resname {
+	display: inline;
+	white-space: nowrap;
+	color: skyblue;
+}
+
+.resval {
+	display: inline;
+	white-space: nowrap;
+}
+
+.resdelta {
+	color: green;
+}
+
+.buildingset {
+	border: 2px solid;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.building {
+	max-width: 100px;
+	border: 2px solid;
+	margin-left: 10px;
+}

@@ -1,0 +1,8 @@
+.divbox {
+	max-width: 300px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
