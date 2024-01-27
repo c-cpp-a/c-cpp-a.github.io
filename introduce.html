@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>c-cpp-a</title>
+		<link rel="stylesheet" tpye="text/css" href="css/host-style.css" />
+		<script>
+			function showtitle() {
+				var t = document.getElementById("magic"),
+					nowtime = 0;
+				for (var i = 0; i < 100; i++) {
+					setTimeout(function() {
+						console.log("i=", nowtime);
+						t.innerHTML = "<p style=\"text-align: center; color: white;font-size: " + nowtime * 2 +
+							"px;\">c_cpp_a</p>";
+						nowtime++;
+					}, i * 20);
+				}
+			}
+		</script>
+	</head>
+	<body style="background-color: black;" onload="showtitle();">
+		<div>
+
+			<div id="magic">
+
+			</div>
+			<center style="color: white;">
+				made by <a href="https://github.com/c-cpp-a">c_cpp_a</a><br />
+				website name: <a href="http://c-cpp-a.github.io/">c-cpp-a.github.io</a>
+			</center>
+		</div>
+
+	</body>
+</html>
